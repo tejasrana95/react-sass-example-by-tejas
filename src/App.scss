@@ -1,0 +1,32 @@
+.container-cards {
+  border: 1px solid red;
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+
+  .container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    label {
+      color: red;
+    }
+    border: 1px solid black;
+    width: 300px;
+
+    .input-form {
+      color: blue;
+      font-size: 12px;
+      font-weight: bold;
+      margin: 5px;
+    }
+
+    .buttons-container {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+    }
+  }
+}
